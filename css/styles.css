@@ -6,6 +6,7 @@
   --light-bg: #f4f4fd;
   --active: #404bbf;
   --border: #e7e9fc;
+  --border-slate: #8e8f99;
 }
 
 /* Resets */
@@ -148,6 +149,11 @@ body {
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(#2e2f42b2, #2e2f42b2),
+    url(/images/icons-and-backgrounds/hero-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -187,6 +193,12 @@ body {
   gap: 24px;
 }
 
+.icon-container {
+  background-color: var(--light-bg);
+  border-radius: 4px;
+  padding: 24px 100px;
+}
+
 .feature-list-item {
   flex-basis: ((100%-72px)/4);
 }
@@ -197,6 +209,7 @@ body {
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.4px;
+  margin-top: 8px;
   margin-bottom: 8px;
 }
 
@@ -240,6 +253,44 @@ body {
   line-height: 120%;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
+}
+
+.team-list-description {
+  margin-bottom: 8px;
+}
+
+.social {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.team-social {
+  background-image: url(/images/icons-and-backgrounds/ellipse.svg);
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+}
+.social-icon {
+  fill: var(--light-bg);
+  margin: 12px;
+}
+
+/* Customer Section */
+.customer {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.customer-list-item {
+  border: 1px solid var(--light-bg);
+  border-radius: 4px;
+}
+
+.customer-icon {
+  margin: 16px 32px;
 }
 
 /* Portfolio Page */
@@ -303,11 +354,25 @@ body {
 }
 
 /* Footer */
-.footer {
+.footer-container {
   background-color: var(--dark);
   padding-top: 101.5px;
   padding-bottom: 100px;
   margin-top: 0;
+}
+
+.footer {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
+}
+
+.footer-list:nth-child(1) {
+  margin-left: 265px;
+}
+
+.footer-logo.logo {
+  margin: 0;
 }
 
 .logo-white {
@@ -316,8 +381,28 @@ body {
 
 .footer-text {
   color: var(--light-bg);
-  letter-spacing: 0.32px;
   width: 264px;
   margin-top: 17.5px;
-  margin-left: 265px;
+}
+
+.footer-title {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 16px;
+  fill: var(--light-bg);
+  background-image: url(/images/icons-and-backgrounds/ellipse.svg);
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+}
+
+.social-icon-footer {
+  fill: var(--light-bg);
+  margin: 8px;
 }
