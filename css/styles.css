@@ -150,7 +150,7 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   background-image: linear-gradient(#2e2f42b2, #2e2f42b2),
-    url(/images/icons-and-backgrounds/hero-background.jpg);
+    url(../images/icons-and-backgrounds/hero-background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
