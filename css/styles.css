@@ -395,7 +395,7 @@ body {
   display: flex;
   gap: 16px;
   fill: var(--light-bg);
-  background-image: url(/images/icons-and-backgrounds/ellipse.svg);
+  background-image: url(../images/icons-and-backgrounds/ellipse.svg);
   background-size: cover;
   background-position: center;
   width: 40px;
