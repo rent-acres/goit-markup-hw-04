@@ -300,8 +300,14 @@ body {
   border-radius: 4px;
 }
 
+.customer-list-item:hover {
+  border: 1px solid var(--brand);
+  fill: var(--brand);
+}
+
 .customer-icon {
-  margin: 16px 32px;
+  margin: 0;
+  padding: 16px 32px;
   fill: var(--border-slate);
 }
 
