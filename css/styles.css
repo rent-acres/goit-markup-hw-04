@@ -7,6 +7,7 @@
   --active: #404bbf;
   --border: #e7e9fc;
   --border-slate: #8e8f99;
+  --active-footer: #31d0aa;
 }
 
 /* Resets */
@@ -271,12 +272,17 @@ body {
 }
 
 .team-social {
-  background-image: url(../images/icons-and-backgrounds/ellipse.svg);
-  background-size: cover;
-  background-position: center;
+  background-color: var(--brand);
+  border-radius: 1000px;
+  fill: var(--dark);
   width: 40px;
   height: 40px;
 }
+
+.team-social:hover {
+  background-color: var(--active);
+}
+
 .social-icon {
   fill: var(--light-bg);
   margin: 12px;
@@ -296,6 +302,11 @@ body {
 
 .customer-icon {
   margin: 16px 32px;
+  fill: var(--border-slate);
+}
+
+.customer-icon:hover {
+  fill: var(--brand);
 }
 
 /* Portfolio Page */
@@ -399,12 +410,18 @@ body {
 .footer-social {
   display: flex;
   gap: 16px;
-  fill: var(--light-bg);
-  background-image: url(../images/icons-and-backgrounds/ellipse.svg);
-  background-size: cover;
-  background-position: center;
+}
+
+.team-social-footer {
+  background-color: var(--brand);
+  border-radius: 1000px;
+  fill: var(--dark);
   width: 40px;
   height: 40px;
+}
+
+.team-social-footer:hover {
+  background-color: var(--active-footer);
 }
 
 .social-icon-footer {
