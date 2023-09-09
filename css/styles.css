@@ -303,12 +303,14 @@ body {
 .customer-list-item:hover {
   border: 1px solid var(--brand);
   fill: var(--brand);
+  cursor: pointer;
 }
 
 .customer-icon {
   margin: 0;
   padding: 16px 32px;
   fill: var(--border-slate);
+  display: block;
 }
 
 .customer-icon:hover {
